@@ -1,5 +1,6 @@
 'use client'
 import SectionTop from "@/components/shared/SectionTop";
+import { getAssetPath } from "@/utils/basePath";
 
 const partnersData = [
   {
@@ -95,7 +96,7 @@ const Partners = () => {
                 >
                   <div style={{ marginBottom: '15px' }}>
                     <img
-                      src={logo}
+                      src={getAssetPath(logo)}
                       alt={name}
                       width={120}
                       height={60}

@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { getAssetPath } from "@/utils/basePath";
+
 const Footer = () => {
   return (
     <footer className="zirox-footer zirox-section">
@@ -7,7 +9,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 col-md-8 col-lg-3">
             <div data-aos="fade-up" className="zirox-footer__about">
-              <img src="/img/Logo.png" alt="Logo" />
+              <img src={getAssetPath("/img/Logo.png")} alt="Logo" />
               <p className="zirox-footer__about-text">Welcome to BMS - Business Management Services. Your premier consulting partner for business establishment, management, and growth in Kosovo.</p>
               <ul className="zirox-footer__about__socials">
                 <li>
