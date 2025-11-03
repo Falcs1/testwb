@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import SectionTop from "@/components/shared/SectionTop";
 
 const partnersData = [
@@ -95,7 +94,7 @@ const Partners = () => {
                   onClick={() => window.open(website, '_blank')}
                 >
                   <div style={{ marginBottom: '15px' }}>
-                    <Image
+                    <img
                       src={logo}
                       alt={name}
                       width={120}
