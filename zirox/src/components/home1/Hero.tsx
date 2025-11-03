@@ -94,7 +94,7 @@ const Hero = () => {
                   <div className="col-12 col-md-12 col-xl-8 d-flex align-items-center px-0">
                     <div className="zirox-hero__content" data-aos="fade-up" data-aos-duration="1">
                       <h1 className=" text-white">
-                        BMS CONSULTING <br /> Kosovo & Balkans
+                        BMS CONSULTING <br /> Kosovo
                       </h1>
                       <Link href={"/contact"} className="zirox-button zirox-button-primary ">Contact Us</Link>
 

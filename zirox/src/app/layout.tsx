@@ -9,8 +9,8 @@ import BootstrapForBrowser from "@/components/shared/bootstrapForBrowser";
 
 
 export const metadata: Metadata = {
-  title: "BMS CONSULTING - Business Solutions in Kosovo & Balkans",
-  description: "BMS CONSULTING - Premier consulting firm for business establishment, management, and growth in Kosovo and the Balkans",
+  title: "BMS CONSULTING - Business Solutions in Kosovo",
+  description: "BMS CONSULTING - Premier consulting firm for business establishment, management, and growth in Kosovo",
 };
 
 export default function RootLayout({

@@ -2,7 +2,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import Image from "next/image";
+
 
 const Testimonial = () => {
   const testimonials = [
@@ -10,7 +10,7 @@ const Testimonial = () => {
       name: "Michael Anderson",
       position: "CEO, Tech Startup",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=faces",
-      text: "BMS CONSULTING made establishing our company in Kosovo incredibly smooth. Their expertise in legal compliance and business registration saved us months of work. They handled everything from documentation to finding the perfect office space. Highly recommended for any international business looking to expand in the Balkans!",
+      text: "BMS CONSULTING made establishing our company in Kosovo incredibly smooth. Their expertise in legal compliance and business registration saved us months of work. They handled everything from documentation to finding the perfect office space. Highly recommended for any international business looking to expand in Kosovo!",
       address: "Michael Anderson - London, UK",
     },
     {
@@ -24,7 +24,7 @@ const Testimonial = () => {
       name: "David Chen",
       position: "Founder, Import/Export",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=faces",
-      text: "Their customs clearance and international trade support have been invaluable for our business. BMS CONSULTING truly understands the complexities of doing business in the Balkans and provides excellent solutions for every challenge we face.",
+      text: "Their customs clearance and international trade support have been invaluable for our business. BMS CONSULTING truly understands the complexities of doing business in Kosovo and provides excellent solutions for every challenge we face.",
       address: "David Chen - Shanghai, China",
     },
     {
@@ -47,7 +47,7 @@ const Testimonial = () => {
     customPaging: (i: number) => (
       <div className="avatars__img">
         <i className="flaticon-plus"></i>
-        <Image 
+        <img 
           src={testimonials[i]?.image || '/img/placeholder.png'} 
           alt={`Author ${i + 1}`}
           width={150}
@@ -78,7 +78,7 @@ const Testimonial = () => {
               <div className="zirox-testimonials__item-head">
                 <div className="zirox-testimonials__item-head-author">
                   <div className="zirox-testimonials__item-head-author-img">
-                    <Image src={testimonial.image} alt={testimonial.name} width={80} height={80} style={{ objectFit: 'cover', borderRadius: '50%' }} />
+                    <img src={testimonial.image} alt={testimonial.name} width={80} height={80} style={{ objectFit: 'cover', borderRadius: '50%' }} />
                     <span>
                       <i className="flaticon-left-quotes-sign"></i>
                     </span>

@@ -20,7 +20,7 @@ export const blogPosts: BlogDataType[] = [
   },
   {
     id: 2,
-    title: "Tax Regulations and Compliance in the Balkans",
+    title: "Tax Regulations and Compliance in Kosovo",
     author: "BMS Team",
     comments: 3,
     imgSrc: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500&h=400&fit=crop",
@@ -47,7 +47,7 @@ export const blogPosts: BlogDataType[] = [
   },
   {
     id: 5,
-    title: "How to Navigate Customs Clearance in the Balkans",
+    title: "How to Navigate Customs Clearance in Kosovo",
     author: "BMS Team",
     comments: 6,
     imgSrc: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop",

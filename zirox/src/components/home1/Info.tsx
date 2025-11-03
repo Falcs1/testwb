@@ -17,10 +17,10 @@ const Info = () => {
                 </span>
                 <div className="zirox-choose-us__experience__left__text">
                   <h2 data-aos="fade-up" className="text-white">
-                    Leading Business Consulting in Kosovo & the Balkans
+                    Leading Business Consulting in Kosovo
                   </h2>
                   <p data-aos="fade-up" data-aos-delay="200">
-                    With 7 years of proven experience, BMS CONSULTING has helped hundreds of businesses establish, manage, and grow successfully in Kosovo and the Balkan region.
+                    With 7 years of proven experience, BMS CONSULTING has helped hundreds of businesses establish, manage, and grow successfully in Kosovo.
                   </p>
                   <Link data-aos="fade-up" data-aos-delay="400" href="/contact" className="zirox-button">
                     Get Started Today

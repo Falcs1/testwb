@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const WhyChoose = () => {
@@ -13,7 +12,7 @@ const WhyChoose = () => {
             <div className="choose-us__left">
               <h6 data-aos="fade-up">Why Choose Us</h6>
               <h2 data-aos="fade-up" data-aos-delay="200" className="text-white">
-                Your Trusted Partner in Kosovo & the Balkans
+                Your Trusted Partner in Kosovo
               </h2>
               <p data-aos="fade-up" data-aos-delay="400">
                 With 7 years of experience, BMS CONSULTING provides comprehensive business solutions from company registration to full operational support. We simplify complexities and accelerate your success.
@@ -44,7 +43,7 @@ const WhyChoose = () => {
           <div className="col-12 col-lg-6">
             <div className="choose-us__right">
               <div className="choose-us__right-img">
-                <Image  width={583} height={439} sizes="100vw" style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=700&h=550&fit=crop" alt="Team Collaboration" />
+                <img width={583} height={439} style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=700&h=550&fit=crop" alt="Team Collaboration" />
               </div>
             </div>
           </div>

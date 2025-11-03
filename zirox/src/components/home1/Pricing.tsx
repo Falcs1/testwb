@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 const Pricing = () => {
   return (
@@ -14,7 +14,7 @@ const Pricing = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div data-aos="fade-up" className="zirox-pricing__table">
               <div className="zirox-pricing__table-head">
-                <Image width={366} height={181} sizes="100vw" style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=450&h=250&fit=crop" alt="Starter Package" />
+                <img width={366} height={181} style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=450&h=250&fit=crop" alt="Starter Package" />
                 <div className="zirox-pricing__table-head-price">
                   <h3>Contact</h3>
                   <span></span>
@@ -58,7 +58,7 @@ const Pricing = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div data-aos="fade-up" data-aos-delay="300" className="zirox-pricing__table">
               <div className="zirox-pricing__table-head">
-                <Image width={366} height={181} sizes="100vw" style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=450&h=250&fit=crop" alt="Business Package" />
+                <img width={366} height={181} style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=450&h=250&fit=crop" alt="Business Package" />
                 <div className="zirox-pricing__table-head-price">
                   <h3>Contact</h3>
                   <span></span>
@@ -102,7 +102,7 @@ const Pricing = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div data-aos="fade-up" data-aos-delay="600" className="zirox-pricing__table">
               <div className="zirox-pricing__table-head">
-                <Image width={366} height={181} sizes="100vw" style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=450&h=250&fit=crop" alt="Enterprise Package" />
+                <img width={366} height={181} style={{width:"100%", height:"auto"}} src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=450&h=250&fit=crop" alt="Enterprise Package" />
                 <div className="zirox-pricing__table-head-price">
                   <h3>Contact</h3>
                   <span></span>

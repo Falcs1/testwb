@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Service = () => {
@@ -72,7 +71,7 @@ const Service = () => {
           Our Services
         </h6>
         <h2 data-aos="fade-up" data-aos-delay="200" className="text-center">
-          Comprehensive Business Solutions for Kosovo & the Balkans
+          Comprehensive Business Solutions for Kosovo
         </h2>
         <div className="row">
           {services.map((service, index) => (
@@ -80,7 +79,7 @@ const Service = () => {
               <Link data-aos="fade-up" data-aos-delay={index * 100} href="/services-details">
                 <div className="zirox-services-box zirox-services-box--home-2">
                   <div className="zirox-services-box-img">
-                    <Image width={352} height={352} sizes="100vw" style={{width:"100%", height:"auto"}} src={service.image} alt={service.title} />
+                    <img width={352} height={352} style={{width:"100%", height:"auto"}} src={service.image} alt={service.title} />
                     <div className="zirox-services-box-img-icon">
                       <i className={service.icon}></i>
                     </div>

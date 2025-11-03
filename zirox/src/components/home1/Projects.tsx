@@ -1,7 +1,6 @@
 'use client'
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const Projects = () => {
   const [filterKey, setFilterKey] = useState("all");
@@ -68,7 +67,7 @@ const Projects = () => {
               <Link href="/portfolio-details">
                 <div className="zirox-latest-projects-item">
                   <div className="zirox-latest-projects-item-img">
-                    <Image width={408} height={408} sizes="100vw" style={{ width: "100%", height: "auto" }} src={image} alt="" className="img-fluid" />
+                    <img width={408} height={408} style={{ width: "100%", height: "auto" }} src={image} alt="" className="img-fluid" />
                   </div>
                   <div className="zirox-latest-projects-item-info">
                     <h3>{title}</h3>

@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-12 col-md-8 col-lg-3">
             <div data-aos="fade-up" className="zirox-footer__about">
               <img src="/img/Logo.png" alt="Logo" />
-              <p className="zirox-footer__about-text">Welcome to BMS - Business Management Services. Your premier consulting partner for business establishment, management, and growth in Kosovo and the Balkans.</p>
+              <p className="zirox-footer__about-text">Welcome to BMS - Business Management Services. Your premier consulting partner for business establishment, management, and growth in Kosovo.</p>
               <ul className="zirox-footer__about__socials">
                 <li>
                   <a href="#">

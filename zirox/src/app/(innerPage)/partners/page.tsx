@@ -57,7 +57,7 @@ const Partners = () => {
                   Trusted Business Partners
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="400">
-                  We work with leading companies across various industries to provide comprehensive business solutions in Kosovo and the Balkans.
+                  We work with leading companies across various industries to provide comprehensive business solutions in Kosovo.
                 </p>
               </div>
             </div>
