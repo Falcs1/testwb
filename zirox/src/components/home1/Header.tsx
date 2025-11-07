@@ -138,28 +138,7 @@ const Header = () => {
                     <span></span>
                   </div>
                 </div>
-                <ul className="zirox-header__navbar-socials d-none d-xxl-flex">
-                  <li>
-                    <a href="#">
-                      <i className="flaticon-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="flaticon-facebook-logo-in-circular-shape"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="flaticon-pinterest"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="flaticon-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
+
                 <Link href="/contact" className="zirox-button d-none d-xl-block">
                   Contact Us
                 </Link>
@@ -233,28 +212,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <ul className="zirox-side-popup__bottom-socials">
-              <li>
-                <a href="#">
-                  <i className="flaticon-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="flaticon-facebook-logo-in-circular-shape"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="flaticon-pinterest"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="flaticon-instagram"></i>
-                </a>
-              </li>
-            </ul>
+
           </div>
         </div>
       </header>

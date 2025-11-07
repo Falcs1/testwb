@@ -35,10 +35,6 @@ const Introduction = () => {
                   <i className="flaticon-tick-inside-circle"></i>
                   <p>Efficiency & Speed</p>
                 </li>
-                <li>
-                  <i className="flaticon-tick-inside-circle"></i>
-                  <p>7 Years Experience</p>
-                </li>
               </ul>
               <Link href="/contact" className="zirox-button">
                 Contact Us

@@ -1,6 +1,5 @@
 'use client'
 
-import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState, useEffect } from "react";
 import ModalVideo from "react-modal-video";
@@ -55,10 +54,7 @@ const Hero = () => {
   return (
     <>
       <section className="zirox-hero-section zirox-hero-section--home-2">
-        <div className="zirox-hero-section__vectors">
-          <Image width={295} height={297} sizes="100vw" className="zirox-hero-section__vectors-left" src="/img/home-2/home-2-hero-left-vector.png" alt="" />
-          <Image width={371} height={326} sizes="100vw" className="zirox-hero-section__vectors-right" src="/img/home-2/home-2-hero-right-vector.png" alt="" />
-        </div>
+
         <div className="container-fluid">
           <Slider
             ref={(slider) => {
