@@ -61,6 +61,12 @@ const Service = () => {
       description: "Global Logistical Support. We arrange and manage complex worldwide transportation solutions for both personnel and cargo.",
       icon: "flaticon-business-analyst",
       image: "https://images.unsplash.com/photo-1473163928189-364b2c4e1135?w=400&h=400&fit=crop"
+    },
+    {
+      title: "Printing Services",
+      description: "Professional Visual Production and Display Services. From high-quality printed materials to LED screens and promotional items, we deliver everything you need for a powerful brand presence.",
+      icon: "flaticon-design",
+      image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400&h=400&fit=crop"
     }
   ];
 
