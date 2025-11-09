@@ -1,0 +1,30 @@
+.zirox-hero__slider-item {
+  position: relative !important;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.45;
+  }
+  
+  &:first-child::before {
+    background-image: url('/testwb/img/photo1.png');
+  }
+  
+  &:nth-child(2)::before {
+    background-image: url('/testwb/img/photo2.png');
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+}

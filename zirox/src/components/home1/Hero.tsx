@@ -64,29 +64,8 @@ const Hero = () => {
             className="home-2-hero-slider"
           >
             {/* <!-- Slider Item --> */}
-            <div className="zirox-hero__slider-item zirox-hero" style={{ position: 'relative' }}>
-              {/* Background Image for Slide 1 */}
-              <div style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                height: '100%',
-                zIndex: 0,
-                pointerEvents: 'none'
-              }}>
-                <img 
-                  src="/testwb/img/photo1.png" 
-                  alt="" 
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    opacity: 0.45
-                  }}
-                />
-              </div>
-              <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+            <div className="zirox-hero__slider-item zirox-hero">
+              <div className="container">
                 <div className="row">
                   <div className="col-12 col-md-12 col-xl-8 d-flex align-items-center px-0">
                     <div className="zirox-hero__content" data-aos="fade-up" data-aos-duration="1">
@@ -105,29 +84,8 @@ const Hero = () => {
             {/* <!-- Slider Item End --> */}
 
             {/* <!-- Slider Item --> */}
-            <div className="zirox-hero__slider-item zirox-hero" style={{ position: 'relative' }}>
-              {/* Background Image for Slide 2 */}
-              <div style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                height: '100%',
-                zIndex: 0,
-                pointerEvents: 'none'
-              }}>
-                <img 
-                  src="/testwb/img/photo2.png" 
-                  alt="" 
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    opacity: 0.45
-                  }}
-                />
-              </div>
-              <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+            <div className="zirox-hero__slider-item zirox-hero">
+              <div className="container">
                 <div className="row">
                   <div className="col-12 col-md-12 col-xl-8 d-flex align-items-center px-0">
                     <div className="zirox-hero__content" data-aos="fade-up" data-aos-duration="1">
