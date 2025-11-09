@@ -76,7 +76,7 @@ const Hero = () => {
                 pointerEvents: 'none'
               }}>
                 <img 
-                  src="/img/photo1.png" 
+                  src="/testwb/img/photo1.png" 
                   alt="" 
                   style={{
                     width: '100%',
@@ -117,7 +117,7 @@ const Hero = () => {
                 pointerEvents: 'none'
               }}>
                 <img 
-                  src="/img/photo2.png" 
+                  src="/testwb/img/photo2.png" 
                   alt="" 
                   style={{
                     width: '100%',
