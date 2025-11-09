@@ -11,7 +11,7 @@ const nextConfig = {
     ],
   },
   // Uncomment the basePath if your repo name is not the root domain
-  basePath: '/testwb',
+  // basePath: '/testwb', // Commented for local development
 };
 
 export default nextConfig;

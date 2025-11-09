@@ -76,7 +76,7 @@ const Header = () => {
           <div className="container-fluid">
             <div className="zirox-header__mobile-nav-bar d-block d-lg-none">
               <div className="zirox-mobile-nav-wrap d-flex align-items-center justify-content-between px-md-5">
-                <div className="logo" style={{backgroundColor: 'white', padding: '8px 12px', borderRadius: '6px', display: 'inline-block'}}>
+                <div className="logo">
                   <img width={128} height={30} src={getAssetPath("/img/Logo.png")} alt="Logo" />
                 </div>
                 <div className="zirox-hamburger-menu">
@@ -88,7 +88,7 @@ const Header = () => {
             </div>
             <div className="w-100 d-flex align-items-center justify-content-around justify-content-xl-between flex-column flex-lg-row d-none d-lg-flex">
               <nav className="ud-main-menu ud-main-menu--home-2" aria-label="Main Navigation">
-                <Link href="/" className="zirox-header__navbar-logo" style={{backgroundColor: 'white', padding: '8px 12px', borderRadius: '6px', display: 'inline-block'}}>
+                <Link href="/" className="zirox-header__navbar-logo">
                   <img width={128} height={30} src={getAssetPath("/img/Logo.png")} alt="Logo" />
                 </Link>
                 <ul>
@@ -149,7 +149,7 @@ const Header = () => {
         {/* <!-- Side Popup --> */}
         <div className={`zirox-side-popup ${mobileMenu && "zirox-side-popup--open"}`}>
           <div className="zirox-side-popup__header">
-            <div className="zirox-side-popup__header-logo" style={{backgroundColor: 'white', padding: '8px 12px', borderRadius: '6px', display: 'inline-block'}}>
+            <div className="zirox-side-popup__header-logo">
               <img src={getAssetPath("/img/Logo.png")} alt="Logo" />
             </div>
             <button onClick={() => setMobileMenu(false)} className="side-popup-close">

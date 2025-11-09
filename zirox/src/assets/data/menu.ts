@@ -18,7 +18,9 @@ export const menu: MenuType = [
     id: 2,
     title: "About",
     submenus: [
-      { id: 2.1, title: "Partners", url: "/partners" },
+      { id: 2.1, title: "About Us", url: "/about" },
+      { id: 2.2, title: "Partners", url: "/partners" },
+      { id: 2.3, title: "Certificates", url: "/certificates" },
     ],
   },
   {
