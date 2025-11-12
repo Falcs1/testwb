@@ -43,21 +43,6 @@ const Header = () => {
               </div>
               <div className="col">
                 <div className="zirox-header__top-bar-right">
-                  <ul className="zirox-header__top-bar-right-links">
-                    <li>
-                      <Link className="zirox-right-line" href="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <a className="zirox-right-line" href="#">
-                        Help
-                      </a>
-                    </li>
-                    <li>
-                      <Link href="/contact">Contact</Link>
-                    </li>
-                  </ul>
                   <div className="zirox-header-info-box d-flex align-items-center gap-4 px-4 py-0 m-0">
                     <i className="flaticon-chatting"></i>
                     <div className="zirox-header-info-box__details">

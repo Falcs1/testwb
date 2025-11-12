@@ -72,10 +72,6 @@ const Hero = () => {
                       <h1 className="text-white">
                         Your business, <br /> our expertise.
                       </h1>
-                      <Link href="/contact" className="zirox-button zirox-button-primary ">
-                        Contact Us
-                      </Link>
-
                     </div>
                   </div>
                 </div>
@@ -92,8 +88,6 @@ const Hero = () => {
                       <h1 className=" text-white">
                         BMS CONSULTING <br /> Kosovo
                       </h1>
-                      <Link href={"/contact"} className="zirox-button zirox-button-primary ">Contact Us</Link>
-
                     </div>
                   </div>
                 </div>

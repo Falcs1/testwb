@@ -6,6 +6,7 @@ import "@/assets/flaticon/flaticon_zirox.css";
 import "@/assets/scss/style.scss";
 import InitAOS from "@/utils/InitAOS";
 import BootstrapForBrowser from "@/components/shared/bootstrapForBrowser";
+import WhatsAppButton from "@/components/shared/WhatsAppButton";
 
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
       <InitAOS/>
       <body suppressHydrationWarning={true}>
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );
