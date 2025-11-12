@@ -11,7 +11,7 @@ const nextConfig = {
     ],
   },
   // Uncomment the basePath if your repo name is not the root domain
-  // basePath: '/testwb', // Comment out for local development, uncomment for GitHub Pages
+  basePath: '/testwb', // Comment out for local development, uncomment for GitHub Pages
 };
 
 export default nextConfig;
